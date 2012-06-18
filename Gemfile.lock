@@ -4,7 +4,6 @@ GEM
     SystemTimer (1.2.3)
     activesupport (2.3.14)
     addressable (2.2.8)
-    always_verify_ssl_certificates (0.3.0)
     daemons (1.1.8)
     eventmachine (0.12.10)
     faraday (0.7.6)
@@ -38,7 +37,6 @@ PLATFORMS
 DEPENDENCIES
   SystemTimer (~> 1.2.3)
   activesupport (~> 2.3)
-  always_verify_ssl_certificates
   faraday (~> 0.7.6)
   sinatra (~> 1.0)
   thin
