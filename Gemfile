@@ -7,7 +7,3 @@ gem 'activesupport', '~> 2.3', :require => 'active_support'
 #gem 'always_verify_ssl_certificates'
 gem 'unicorn', '~> 4.3.1'
 
-group :development do
-  gem 'thin'
-  gem 'SystemTimer', '~> 1.2.3'
-end
