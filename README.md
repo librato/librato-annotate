@@ -19,6 +19,8 @@ $ heroku create
 Creating evening-chamber-4158... done, stack is cedar
 http://evening-chamber-4158.herokuapp.com/ | git@heroku.com:evening-chamber-4158.git
 Git remote heroku added
+
+$ git push heroku master
 ```
 
 ## Supported Services
