@@ -3,8 +3,6 @@ require 'uri'
 
 module LibratoAnnotateHook
   class App < Sinatra::Base
-    dir = File.dirname(File.expand_path(__FILE__))
-
     set :app_file, __FILE__
 
     set :uri, ENV["METRICS_API"] || "metrics-api.librato.com"
@@ -26,8 +24,6 @@ module LibratoAnnotateHook
 
       conn = Faraday.new(:url => "https://#{settings.uri}") do |builder|
         builder.request  :json
-
-        #builder.response :logger
         builder.adapter  Faraday.default_adapter
       end
 
