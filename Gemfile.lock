@@ -27,7 +27,7 @@ GEM
       atomic
     tilt (1.4.1)
     tzinfo (0.3.38)
-    unicorn (4.6.3)
+    unicorn (4.7.0)
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
@@ -40,5 +40,5 @@ DEPENDENCIES
   activesupport (~> 4.0.0)
   faraday (~> 0.8.8)
   sinatra (~> 1.4.3)
-  unicorn (~> 4.6.3)
+  unicorn (~> 4.7.0)
   yajl-ruby (~> 1.1.0)
