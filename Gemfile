@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'sinatra',   '~> 1.4.3'
-gem 'yajl-ruby', '~> 1.1.0', :require => 'yajl'
-gem 'faraday',   '~> 0.8.8'
-gem 'activesupport', '~> 4.0.0', :require => 'active_support'
-gem 'unicorn', '~> 4.7.0'
+gem 'sinatra',   '~> 1.4.5'
+gem 'yajl-ruby', '~> 1.2.0', :require => 'yajl'
+gem 'faraday',   '~> 0.9.0'
+gem 'activesupport', '~> 4.1.1', :require => 'active_support'
+gem 'unicorn', '~> 4.8.3'
