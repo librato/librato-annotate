@@ -1,3 +1,4 @@
+require 'faraday_middleware'
 require 'libraries'
 require 'uri'
 
