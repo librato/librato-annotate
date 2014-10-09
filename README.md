@@ -27,6 +27,8 @@ $ git push heroku master
 
 ### Heroku HTTP Post Hook
 
+**NOTE**: If you are using the [Librato Heroku Addon](https://addons.heroku.com/librato) or have setup a [log-drain](http://support.metrics.librato.com/knowledgebase/articles/265391-heroku-native-and-custom-metrics-without-the-libra) for your app, release annotations are now [published to your Librato account](http://blog.librato.com/posts/heroku-status-codes-and-release-annotations) automatically.
+
 Supports Heroku's [HTTP Post
 Hook](https://devcenter.heroku.com/articles/deploy-hooks#http_post_hook).
 
